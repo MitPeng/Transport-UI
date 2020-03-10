@@ -1,0 +1,5 @@
+<root>
+	<Panel>
+        <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/barebones_hud_base.xml" />
+	</Panel>
+</root>
