@@ -1,0 +1,35 @@
+#push_time_remain{
+    margin-left: 37%;
+    margin-top: 10%;
+}
+#push_time_min{
+    margin-left: 73%;
+    margin-top: 10%;
+}
+#maohao{
+    margin-left: 81%;
+    margin-top: 10%;
+}
+#push_time_sec{
+    margin-left: 84%;
+    margin-top: 10%;
+}
+
+.ziti{
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 29px;
+    color: white;
+    color: gradient( linear, 0% 0%, 0% 100%, from( #c88423 ), color-stop( 0.25, #c88423 ), color-stop( 0.5, #fffb84 ), color-stop( 0.75, #c88423 ), to( #9a6717 ) );
+    text-shadow: 2px 2px 2px #757168;
+    text-overflow: clip;
+}
+
+
+.push_time_panel {
+	width: 26%;
+    height: 10%;
+    horizontal-align: left;
+    vertical-align: top;
+    /* border: 1px solid red; */
+}

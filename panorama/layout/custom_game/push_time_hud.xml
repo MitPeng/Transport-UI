@@ -1,0 +1,16 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/custom_game/push_time_hud.css" />
+    </styles>
+    <scripts>
+        <include src="s2r://panorama/scripts/custom_game/push_time_hud.js" />
+    </scripts>
+    <!--<snippets>-->
+    <!--</snippets>-->   
+    <Panel class="push_time_panel" hittest="false">
+        <Label hittest="false" id="push_time_remain" class="ziti" text="#push_time_remain" />
+        <Label hittest="false" id="push_time_min" class="ziti" text="00" />
+        <Label hittest="false" id="maohao" class="ziti" text=":" />
+        <Label hittest="false" id="push_time_sec" class="ziti" text="00" />
+    </Panel>
+</root>
