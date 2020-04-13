@@ -1,0 +1,28 @@
+<root>
+    <styles>
+        <include src="s2r://panorama/styles/custom_game/talent_ability_hud.css" />
+        <include src="s2r://panorama/styles/dotastyles.css" />
+    </styles>
+    <scripts>
+        <include src="s2r://panorama/scripts/custom_game/talent_ability_hud.js" />    
+    </scripts>
+    <snippets>
+		<snippet name="AbilitySelectorAbility">
+			<Panel class="AbilitySelectorRoot">
+				<Panel id="player_ability_image">
+					<DOTAAbilityImage id="ability_image" />
+				</Panel>
+				<Label id="ability_name" text="Ability" />
+			</Panel>
+		</snippet>
+	</snippets>
+    <Panel class="AbilityUIRoot" hittest="false">
+		<Panel class="AbilitySelectorPanel" id="ability_selector">
+			<Label class="AbilitySelectorTitle" text="#ability_selector_title" />
+			<Panel class="AbilitySelectorAbilityImages" id="ability_selector_image_panel"/>
+			<Button class="ButtonBevel ButtonCancel" onactivate="CancelAbilitySelect()">
+				<Label text="#random_one" />
+			</Button>
+		</Panel>
+	</Panel>
+</root>

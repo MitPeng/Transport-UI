@@ -1,0 +1,88 @@
+.AbilityUIRoot {
+	width: 100%;
+	height: 100%;
+}
+
+.AbilitySelectorPanel {
+	background-color: gradient( linear, 0% 0%, 100% 100%, from( #24679122 ), to( #051927 ) );
+	vertical-align: center;
+	horizontal-align: right;
+	padding: 20px;
+	flow-children: down;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+
+	transition-property: transform, opacity;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+
+	vertical-align: bottom;
+	horizontal-align: right;
+	margin-bottom: 200px;
+
+	transition-property: transform, opacity;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.HUDFlipped .AbilitySelectorPanel {
+	background-color: gradient( linear, 0% 0%, 100% 100%, from( #051927 ), to( #24679122 ) );
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	horizontal-align: left;
+}
+
+.AbilitySelectorPanelHide {
+	transform: translateY(500px);
+	opacity: 0;
+}
+
+.AbilitySelectorPanel Label {
+	horizontal-align: center;
+	color: white;
+}
+
+.AbilitySelectorTitle {
+	font-size: 30px;
+}
+
+.AbilitySelectorTooltip {
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.AbilitySelectorAbilityImages {
+	margin-top: 20px;
+	flow-children: right;
+	horizontal-align: center;
+}
+
+.AbilitySelectorRoot {
+	width: 64px;
+	height:84px;
+	margin:10px;
+
+	flow-children:down;
+}
+
+#ability_name {
+	font-size:14px;
+	horizontal-align:center;
+}
+
+.ButtonCancel {
+	horizontal-align: center;
+}
+
+.CourierAbility #CourierAbilityOverlay {
+	opacity: 1.0;
+}
+
+#CourierAbilityOverlay {
+	width: 100%;
+	height: 100%;
+	opacity: 0.0;
+	box-shadow: inset #c88d0d 3px 3px 4px 6px;
+}
