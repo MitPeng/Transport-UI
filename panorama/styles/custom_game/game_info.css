@@ -1,0 +1,39 @@
+#bg_image{
+    margin-top: -15%;
+    margin-left: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#bg_image_panel{
+    width: 500px;
+    height: 300px;
+}
+
+#talent_ability{
+    margin-top: 280px;
+}
+
+#talent_abilities_label{
+    font-size: 25px;
+}
+
+.TalentAbilitiesPanel {
+	margin-top: 40px;
+	flow-children: right-wrap;
+	horizontal-align: center;
+}
+
+.AbilitiesRoot {
+    margin-top: 20px;
+	width: 64px;
+	height:84px;
+	margin:10px;
+
+    flow-children:down;
+}
+
+#ability_name {
+	font-size:14px;
+	horizontal-align:center;
+}

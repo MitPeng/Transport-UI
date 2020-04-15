@@ -1,0 +1,31 @@
+<root>
+        <styles>
+                <include src="s2r://panorama/styles/dotastyles.css"/>
+                <include src="s2r://panorama/styles/custom_game/game_info.css"/>
+                <include src="s2r://panorama/styles/custom_game/talent_ability_hud.css" />
+        </styles>
+        <!-- 使用脚本 -->
+        <scripts>
+                <include src="s2r://panorama/scripts/custom_game/game_info.js"/>
+        </scripts>
+        <snippets>
+		<snippet name="AllTalentAbilities">
+			<Panel class="AbilitiesRoot">
+				<Panel id="player_ability_image">
+					<DOTAAbilityImage id="ability_image" />
+				</Panel>
+				<Label id="ability_name" text="Ability" />
+			</Panel>
+		</snippet>
+	</snippets>
+        <Panel>
+                <Panel id="bg_image_panel" class="">
+                        <Image id="bg_image" src="s2r://panorama/images/custom_game/dota_transport.png" />
+                </Panel>
+                <!-- 天赋技能 -->
+                <Panel id="talent_ability" class="">
+                        <Label id="talent_abilities_label" text="#all_talent_abilities"/>
+                        <Panel id="talent_abilities_panel" class="TalentAbilitiesPanel"/>
+                </Panel>
+        </Panel>
+</root>
