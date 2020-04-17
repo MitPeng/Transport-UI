@@ -2,6 +2,23 @@ var PlayerID = null
 function ShowAbilitySelector(args) {
     Show();
 
+    //判断是否为第一次选择天赋
+    if (args.is_first) {
+        var random_one = $("#random_one")
+        random_one.visible = true;
+        random_one.hittest = true;
+        var cancel_change = $("#cancel_change")
+        cancel_change.visible = false;
+        cancel_change.hittest = false;
+    } else {
+        var cancel_change = $("#cancel_change")
+        cancel_change.visible = true;
+        cancel_change.hittest = true;
+        var random_one = $("#random_one")
+        random_one.visible = false;
+        random_one.hittest = false;
+    }
+
     var parent = $("#ability_selector_image_panel");
     PlayerID = args.PlayerID
     parent.RemoveAndDeleteChildren();
@@ -35,10 +52,18 @@ function ShowAbilitySelector(args) {
     }
 }
 
-function CancelAbilitySelect() {
+function RandomAbilitySelect() {
     Hide();
     GameEvents.SendCustomGameEventToServer("player_select_ability", {
         AbilityName: "Random",
+        PlayerID: PlayerID
+    });
+}
+
+function CancelAbilitySelect() {
+    Hide();
+    GameEvents.SendCustomGameEventToServer("player_select_ability", {
+        AbilityName: "Cancel",
         PlayerID: PlayerID
     });
 }
