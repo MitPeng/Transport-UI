@@ -20,12 +20,15 @@
 		<Panel class="AbilitySelectorPanel" id="ability_selector">
 			<Label class="AbilitySelectorTitle" text="#ability_selector_title" />
 			<Panel class="AbilitySelectorAbilityImages" id="ability_selector_image_panel"/>
-			<Button id="random_one" class="ButtonBevel ButtonCancel" onactivate="RandomAbilitySelect()">
+			<Panel id="button_panel" class="ButtonPanel">
+				<Button id="random_one" class="ButtonBevel ButtonCancel" onactivate="RandomAbilitySelect()">
 				<Label text="#random_one" />
 			</Button>
 			<Button id="cancel_change" class="ButtonBevel ButtonCancel" onactivate="CancelAbilitySelect()">
 				<Label text="#cancel_change" />
 			</Button>
+			</Panel>
+			
 		</Panel>
 	</Panel>
 </root>

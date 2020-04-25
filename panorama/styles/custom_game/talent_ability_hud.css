@@ -74,6 +74,8 @@
 
 .ButtonCancel {
 	horizontal-align: center;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .CourierAbility #CourierAbilityOverlay {
@@ -85,4 +87,9 @@
 	height: 100%;
 	opacity: 0.0;
 	box-shadow: inset #c88d0d 3px 3px 4px 6px;
+}
+
+.ButtonPanel{
+	flow-children:right;
+	horizontal-align: center;
 }

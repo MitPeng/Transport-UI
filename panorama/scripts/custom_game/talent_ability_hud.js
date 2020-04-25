@@ -15,8 +15,8 @@ function ShowAbilitySelector(args) {
         cancel_change.visible = true;
         cancel_change.hittest = true;
         var random_one = $("#random_one")
-        random_one.visible = false;
-        random_one.hittest = false;
+        random_one.visible = true;
+        random_one.hittest = true;
     }
 
     var parent = $("#ability_selector_image_panel");
