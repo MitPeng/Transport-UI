@@ -4,5 +4,6 @@
         <CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/barebones_hud_base.xml" />
 		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/push_time_hud.xml" />
 		<CustomUIElement type="Hud" layoutfile="file://{resources}/layout/custom_game/talent_ability_hud.xml" />
+		<CustomUIElement type="EndScreen" layoutfile="file://{resources}/layout/custom_game/multiteam_end_screen.xml" />
 	</Panel>
 </root>
