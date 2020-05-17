@@ -25,7 +25,6 @@
 				<Label class="LegendPanel ScoreCol_Deaths" text="#custom_end_screen_legend_deaths" />
 				<Label class="LegendPanel ScoreCol_Assists" text="#custom_end_screen_legend_assists" />
 				<Label class="LegendPanel ScoreCol_Items" text="#custom_end_screen_legend_items" />
-				<Label class="LegendPanel ScoreCol_Gold" text="#custom_end_screen_remaining_gold" />
 			</Panel>
 			<Panel id="TeamsContainer" />
 			<Button id="CloseButton" onactivate="Game.FinishGame();">

@@ -4,9 +4,16 @@ var isEndScreen = false
 
 var newStatsInEndScreen = [
     {
-        name: "new_stat_gpm",
+        name: "new_stat_push_score",
         func: function (pId, cont) {
-            CreateStandartValue(cont, Math.ceil(Players.GetGoldPerMin(pId)), null)
+            var table = CustomNetTables.GetTableValue("custom_stats", pId.toString())
+            var value = 0
+
+            if (table) {
+                value = table.push_score
+            }
+
+            CreateStandartValue(cont, value, null)
         },
         styles: {
             "width": "70px"
