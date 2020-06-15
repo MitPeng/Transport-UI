@@ -1,0 +1,50 @@
+.effect_button{
+    width:26px;
+	height:26px;
+	margin-top: 15px;
+	margin-left: 160px;
+	background-size:26px 26px;
+	background-image: url('file://{resources}/images/custom_game/effect_button.png');
+}
+
+.effect_button:active
+{
+  sound:"ui_friends_slide_in"; 
+}
+
+#effect_selector{
+	width: 1150px;
+	height: 600px;
+	margin-top: 20%;
+	margin-left: 20%;
+	/* border: 1px solid red; */
+}
+
+.effect_select_panel{
+    background-color:gradient( linear, 0% 0%, 0% 100%, from( #272d2e ), to( #121212 ) );
+	vertical-align: center;
+	horizontal-align: right;
+	padding: 20px;
+	flow-children: down;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+	transition-property: opacity;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.effect_select_panel_hide {
+	opacity: 0;
+}
+
+.effect_lebel{
+	vertical-align: top;
+    font-weight: bold;
+    font-size: 29px;
+    color: gradient( linear, 0% 0%, 0% 100%, from( #c88423 ), to( #fffb84 ) );
+    /* text-shadow: 2px 2px 2px #757168; */
+    text-overflow: clip;
+}

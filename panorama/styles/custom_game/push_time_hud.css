@@ -19,8 +19,7 @@
     vertical-align: top;
     font-weight: bold;
     font-size: 29px;
-    color: white;
-    color: gradient( linear, 0% 0%, 0% 100%, from( #c88423 ), color-stop( 0.25, #c88423 ), color-stop( 0.5, #fffb84 ), color-stop( 0.75, #c88423 ), to( #9a6717 ) );
+    color: gradient( linear, 0% 0%, 0% 100%, from( #c88423 ), to( #fffb84 ) );
     text-shadow: 2px 2px 2px #757168;
     text-overflow: clip;
 }
@@ -31,5 +30,6 @@
     height: 10%;
     horizontal-align: left;
     vertical-align: top;
+    margin-left: 64%;
     /* border: 1px solid red; */
 }
