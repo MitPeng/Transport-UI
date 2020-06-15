@@ -5,6 +5,10 @@
 	margin-left: 160px;
 	background-size:26px 26px;
 	background-image: url('file://{resources}/images/custom_game/effect_button.png');
+	wash-color:#CDF;
+	transition-property: opacity;
+	transition-duration: 0.2s;
+	tooltip-position:bottom;
 }
 
 .effect_button:active
@@ -41,6 +45,8 @@
 }
 
 .effect_lebel{
+	margin-top: 10px;
+	margin-left: 20px;
 	vertical-align: top;
     font-weight: bold;
     font-size: 29px;
