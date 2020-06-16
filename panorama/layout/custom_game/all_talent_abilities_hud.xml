@@ -25,7 +25,7 @@
             <Panel id="talent_ability" class="">
                     <Panel id="talent_abilities_panel" class="TalentAbilitiesPanel"/>
             </Panel>
-            <Button id="close_button" class="ButtonBevel ButtonCancel" onactivate="HideOrShow()">
+            <Button id="close_button" class="ButtonBevel ButtonCancel" onactivate="Hide()">
 				<Label text="#close" />
 			</Button>
         </Panel>  
