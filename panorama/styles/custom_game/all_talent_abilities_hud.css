@@ -1,22 +1,22 @@
-.effect_button{
+.all_talent_abilities_button{
     width:26px;
 	height:26px;
 	margin-top: 15px;
-	margin-left: 200px;
+	margin-left: 160px;
 	background-size:26px 26px;
-	background-image: url('file://{resources}/images/custom_game/effect_button.png');
+	background-image: url('file://{resources}/images/custom_game/talent_abilities_button.png');
 	wash-color:#CDF;
 	transition-property: opacity;
 	transition-duration: 0.2s;
 	tooltip-position:bottom;
 }
 
-.effect_button:active
+.all_talent_abilities_button:active
 {
   sound:"ui_friends_slide_in"; 
 }
 
-#effect_selector{
+#all_talent_abilities_panel{
 	width: 1150px;
 	height: 600px;
 	margin-top: 20%;
@@ -24,7 +24,7 @@
 	/* border: 1px solid red; */
 }
 
-.effect_select_panel{
+.all_talent_abilities_panel{
     background-color:gradient( linear, 0% 0%, 0% 100%, from( #272d2e ), to( #121212 ) );
 	vertical-align: center;
 	horizontal-align: right;
@@ -40,11 +40,11 @@
 	transition-timing-function: ease-in-out;
 }
 
-.effect_select_panel_hide {
+.all_talent_abilities_panel_hide {
 	opacity: 0;
 }
 
-.effect_lebel{
+.all_talent_abilities_lebel{
 	margin-top: 10px;
 	margin-left: 20px;
 	vertical-align: top;
