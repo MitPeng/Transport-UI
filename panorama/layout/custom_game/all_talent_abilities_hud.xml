@@ -1,16 +1,33 @@
 <root>
     <styles>
         <include src="s2r://panorama/styles/custom_game/all_talent_abilities_hud.css" />
+        <include src="s2r://panorama/styles/dotastyles.css"/>
+        <include src="s2r://panorama/styles/custom_game/talent_ability_hud.css" />
     </styles>
     <scripts>
         <include src="s2r://panorama/scripts/custom_game/all_talent_abilities_hud.js" />
     </scripts>
-    <!--<snippets>-->
-    <!--</snippets>--> 
+    <snippets>
+		<snippet name="AllTalentAbilities">
+			<Panel class="AbilitiesRoot">
+				<Panel id="player_ability_image">
+					<DOTAAbilityImage id="ability_image" />
+				</Panel>
+				<Label id="ability_name" text="Ability" />
+			</Panel>
+		</snippet>
+	</snippets>
     <Panel hittest="false">
         <Button id="all_talent_abilities_button" class="all_talent_abilities_button"  onmouseover="DOTAShowTextTooltip(#all_talent_abilities)" onmouseout="DOTAHideTextTooltip()" onactivate="HideOrShow()" />
         <Panel id="all_talent_abilities_panel" class="all_talent_abilities_panel">
-        <Label id="all_talent_abilities_lebel" class="all_talent_abilities_lebel" text="#all_talent_abilities" />
+            <Label id="all_talent_abilities_lebel" class="all_talent_abilities_lebel" text="#all_talent_abilities" />
+            <!-- 天赋技能 -->
+            <Panel id="talent_ability" class="">
+                    <Panel id="talent_abilities_panel" class="TalentAbilitiesPanel"/>
+            </Panel>
+            <Button id="close_button" class="ButtonBevel ButtonCancel" onactivate="HideOrShow()">
+				<Label text="#close" />
+			</Button>
         </Panel>  
     </Panel>
 </root>

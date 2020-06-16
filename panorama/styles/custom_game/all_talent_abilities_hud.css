@@ -54,3 +54,32 @@
     /* text-shadow: 2px 2px 2px #757168; */
     text-overflow: clip;
 }
+
+#talent_ability{
+    margin-top: -20px;
+}
+
+.TalentAbilitiesPanel {
+	margin-top: 40px;
+	flow-children: right-wrap;
+	horizontal-align: center;
+}
+
+.AbilitiesRoot {
+    margin-top: 20px;
+	width: 64px;
+	height:84px;
+	margin:10px;
+
+    flow-children:down;
+}
+
+#ability_name {
+	font-size:14px;
+	horizontal-align:center;
+}
+
+#close_button{
+    margin-top: 200px;
+    margin-left:850px;
+}
