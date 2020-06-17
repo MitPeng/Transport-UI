@@ -18,8 +18,8 @@
 
 #effect_selector{
 	width: 1150px;
-	height: 600px;
-	margin-top: 20%;
+	height: 680px;
+	margin-top: 16%;
 	margin-left: 20%;
 	/* border: 1px solid red; */
 }
@@ -53,6 +53,43 @@
     color: gradient( linear, 0% 0%, 0% 100%, from( #c88423 ), to( #fffb84 ) );
     /* text-shadow: 2px 2px 2px #757168; */
     text-overflow: clip;
+}
+
+#effect_box{
+	margin-top: -20px;
+	width: 1150px;
+	
+}
+
+.effect_box_panel {
+	margin-top: 40px;
+	margin-right: 0px;
+	flow-children: right-wrap;
+	horizontal-align: center;
+	overflow: squish scroll;
+}
+
+#effect_image_panel{
+	width: 170px;
+	height: 190px;
+
+}
+
+.EffectsRoot {
+	width: 170px;
+	height:250px;
+	margin:20px;
+    flow-children:down;
+}
+
+#effect_select_button{
+	margin-top: 10px;
+}
+
+#effect_name {
+	font-size:20px;
+	margin-top: 0px;
+	horizontal-align:center;
 }
 
 #close_button {

@@ -6,13 +6,39 @@
     <scripts>
         <include src="s2r://panorama/scripts/custom_game/effect_select_hud.js" />
     </scripts>
-    <!--<snippets>-->
-    <!--</snippets>--> 
+    <snippets>
+		<snippet name="AllEffects">
+			<Panel class="EffectsRoot">
+                <Panel id="effect_image_panel">
+                    <Image id="effect_image" src="file://{resources}/images/custom_game/effects/no_effect.png"/>
+                </Panel>				
+                <Button id="effect_select_button" class="ButtonBevel">
+                    <Label id="effect_name" text="Effect" />
+                </Button>
+			</Panel>
+		</snippet>
+	</snippets>
     <Panel hittest="false">
         <Button id="effect_button" class="effect_button"  onmouseover="DOTAShowTextTooltip(#effect_box)" onmouseout="DOTAHideTextTooltip()" onactivate="HideOrShow()" />
         <Panel id="effect_selector" class="effect_select_panel">
             <Label id="effect_lebel" class="effect_lebel" text="#effect_box" />
             <Button id="close_button" onactivate="Hide()"/>
+            <!-- 特效背包 -->
+            <Panel id="effect_box" class="">
+                <Panel id="effect_box_panel" class="effect_box_panel"/>
+                <!-- <Image id="effect_image_1" src="file://{resources}/images/custom_game/effects/bee_flying.png"/>
+                <Image id="effect_image_2" src="file://{resources}/images/custom_game/effects/blue_fire.png"/>
+                <Image id="effect_image_3" src="file://{resources}/images/custom_game/effects/cave_crystal.png"/>
+                <Image id="effect_image_4" src="file://{resources}/images/custom_game/effects/christmas.png"/>
+                <Image id="effect_image_5" src="file://{resources}/images/custom_game/effects/darkmoon.png"/>
+                <Image id="effect_image_6" src="file://{resources}/images/custom_game/effects/desert_sands.png"/>
+                <Image id="effect_image_7" src="file://{resources}/images/custom_game/effects/frost.png"/>
+                <Image id="effect_image_8" src="file://{resources}/images/custom_game/effects/golden_fire.png"/>
+                <Image id="effect_image_9" src="file://{resources}/images/custom_game/effects/green_fire.png"/>
+                <Image id="effect_image_10" src="file://{resources}/images/custom_game/effects/pink_memories.png"/>
+                <Image id="effect_image_11" src="file://{resources}/images/custom_game/effects/red_fire.png"/>
+                <Image id="effect_image_12" src="file://{resources}/images/custom_game/effects/void_mist.png"/> -->
+            </Panel>
         </Panel>  
     </Panel>
 </root>

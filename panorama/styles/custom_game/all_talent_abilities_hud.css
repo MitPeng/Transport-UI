@@ -18,8 +18,8 @@
 
 #all_talent_abilities_panel{
 	width: 1150px;
-	height: 600px;
-	margin-top: 20%;
+	height: 680px;
+	margin-top: 16%;
 	margin-left: 20%;
 	/* border: 1px solid red; */
 }
@@ -63,19 +63,20 @@
 	margin-top: 40px;
 	flow-children: right-wrap;
 	horizontal-align: center;
+	overflow: squish scroll;
 }
 
 .AbilitiesRoot {
-    margin-top: 20px;
-	width: 64px;
-	height:84px;
-	margin:10px;
+	width: 84px;
+	height:120px;
+	margin:25px;
 
     flow-children:down;
 }
 
 #ability_name {
-	font-size:14px;
+	font-size:19px;
+	margin-top: 10px;
 	horizontal-align:center;
 }
 
@@ -90,3 +91,4 @@
 	margin-right:30px;
 	horizontal-align: right;
 }
+

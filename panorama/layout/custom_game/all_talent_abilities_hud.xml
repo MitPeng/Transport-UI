@@ -2,7 +2,6 @@
     <styles>
         <include src="s2r://panorama/styles/custom_game/all_talent_abilities_hud.css" />
         <include src="s2r://panorama/styles/dotastyles.css"/>
-        <include src="s2r://panorama/styles/custom_game/talent_ability_hud.css" />
     </styles>
     <scripts>
         <include src="s2r://panorama/scripts/custom_game/all_talent_abilities_hud.js" />
