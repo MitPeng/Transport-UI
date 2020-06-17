@@ -21,13 +21,12 @@
         <Button id="all_talent_abilities_button" class="all_talent_abilities_button"  onmouseover="DOTAShowTextTooltip(#all_talent_abilities)" onmouseout="DOTAHideTextTooltip()" onactivate="HideOrShow()" />
         <Panel id="all_talent_abilities_panel" class="all_talent_abilities_panel">
             <Label id="all_talent_abilities_lebel" class="all_talent_abilities_lebel" text="#all_talent_abilities" />
+            <Button id="close_button" onactivate="Hide()"/>
             <!-- 天赋技能 -->
             <Panel id="talent_ability" class="">
                     <Panel id="talent_abilities_panel" class="TalentAbilitiesPanel"/>
             </Panel>
-            <Button id="close_button" class="ButtonBevel ButtonCancel" onactivate="Hide()">
-				<Label text="#close" />
-			</Button>
+            
         </Panel>  
     </Panel>
 </root>

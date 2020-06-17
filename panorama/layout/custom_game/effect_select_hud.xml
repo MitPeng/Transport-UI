@@ -11,7 +11,8 @@
     <Panel hittest="false">
         <Button id="effect_button" class="effect_button"  onmouseover="DOTAShowTextTooltip(#effect_box)" onmouseout="DOTAHideTextTooltip()" onactivate="HideOrShow()" />
         <Panel id="effect_selector" class="effect_select_panel">
-        <Label id="effect_lebel" class="effect_lebel" text="#effect_box" />
+            <Label id="effect_lebel" class="effect_lebel" text="#effect_box" />
+            <Button id="close_button" onactivate="Hide()"/>
         </Panel>  
     </Panel>
 </root>

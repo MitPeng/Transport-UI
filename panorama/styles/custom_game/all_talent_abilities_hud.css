@@ -79,7 +79,14 @@
 	horizontal-align:center;
 }
 
-#close_button{
-    margin-top: 200px;
-    margin-left:850px;
+#close_button {
+	width: 24px;
+	height: 24px;
+	background-image: url("s2r://panorama/images/control_icons/x_close_png.vtex");
+	background-size: 24px 24px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin-top:-30px;
+	margin-right:30px;
+	horizontal-align: right;
 }
