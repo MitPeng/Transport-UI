@@ -42,6 +42,7 @@ function ShowAllEffects(args) {
                     EffectName: name,
                     PlayerID: Players.GetLocalPlayer()
                 });
+                Hide();
             });
         })(effectPanel, effectName);
     }
