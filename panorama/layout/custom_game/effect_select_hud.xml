@@ -37,7 +37,11 @@
                 <Image id="effect_image_9" src="file://{resources}/images/custom_game/effects/green_fire.png"/>
                 <Image id="effect_image_10" src="file://{resources}/images/custom_game/effects/pink_memories.png"/>
                 <Image id="effect_image_11" src="file://{resources}/images/custom_game/effects/red_fire.png"/>
-                <Image id="effect_image_12" src="file://{resources}/images/custom_game/effects/void_mist.png"/> -->
+                <Image id="effect_image_12" src="file://{resources}/images/custom_game/effects/void_mist.png"/>
+                <Image id="effect_image_13" src="file://{resources}/images/custom_game/effects/ti10_effect.png"/>
+                <Image id="effect_image_14" src="file://{resources}/images/custom_game/effects/ti9_effect.png"/>
+                <Image id="effect_image_15" src="file://{resources}/images/custom_game/effects/ti8_effect.png"/>
+                <Image id="effect_image_16" src="file://{resources}/images/custom_game/effects/ti7_effect.png"/> -->
             </Panel>
         </Panel>  
     </Panel>
