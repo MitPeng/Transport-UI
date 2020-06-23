@@ -41,7 +41,12 @@
                 <Image id="effect_image_13" src="file://{resources}/images/custom_game/effects/ti10_effect.png"/>
                 <Image id="effect_image_14" src="file://{resources}/images/custom_game/effects/ti9_effect.png"/>
                 <Image id="effect_image_15" src="file://{resources}/images/custom_game/effects/ti8_effect.png"/>
-                <Image id="effect_image_16" src="file://{resources}/images/custom_game/effects/ti7_effect.png"/> -->
+                <Image id="effect_image_16" src="file://{resources}/images/custom_game/effects/ti7_effect.png"/>
+                <Image id="effect_image_17" src="file://{resources}/images/custom_game/effects/ti6_radiance.png"/>
+                <Image id="effect_image_18" src="file://{resources}/images/custom_game/effects/ti7_radiance.png"/>
+                <Image id="effect_image_19" src="file://{resources}/images/custom_game/effects/ti8_radiance.png"/>
+                <Image id="effect_image_20" src="file://{resources}/images/custom_game/effects/ti9_radiance.png"/>
+                <Image id="effect_image_21" src="file://{resources}/images/custom_game/effects/ti10_radiance.png"/> -->
             </Panel>
         </Panel>  
     </Panel>
